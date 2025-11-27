@@ -1,0 +1,60 @@
+body {
+background: #f4f4f4;
+margin: 0;
+padding: 20px;
+}
+
+
+h1 {
+text-align: center;
+margin-bottom: 30px;
+}
+
+
+.lista {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+max-width: 1000px;
+margin: auto;
+}
+
+
+.card {
+background: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+text-decoration: none;
+color: black;
+font-weight: bold;
+text-align: center;
+transition: 0.2s;
+}
+
+
+.card:hover {
+transform: scale(1.05);
+background: #eaeaea;
+}
+
+
+.redacao-wrap {
+max-width: 800px;
+margin: auto;
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+
+.redacao-title {
+margin-bottom: 20px;
+}
+
+
+.redacao-body {
+line-height: 1.6;
+white-space: pre-wrap;
+}
